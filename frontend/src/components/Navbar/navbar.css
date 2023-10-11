@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    height: 7.5vh
+}
+
+.header{
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    height: 2vh;
+    margin-left: 3%;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    background-color: #6ac2e6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
